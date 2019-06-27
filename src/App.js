@@ -1,8 +1,8 @@
 import React from 'react';
-import { ToDos } from './ToDos/ToDos';
-import { ToDoById } from './ToDos/ToDoId';
+import { ToDos } from './EffectHook/ToDos';
+import { ToDoById } from './EffectHook/ToDoId';
 import ContextProvider from './ContextHook/ContextProvider';
-import Main from './GlobalState/components/Main';
+import Main from './ReducerHook/components/Main';
 import CallbackHook from './CallBackHook/CallbackHook';
 
 function App() {

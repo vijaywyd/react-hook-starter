@@ -33,7 +33,6 @@ export default function CallbackHook() {
             <Button onClick = {increment}>+</Button>
             <Button onClick = {decrement}>-</Button>
 
-
             <h3>{anotherCount}</h3>
             <Button onClick = {incrementAnotherCount}>+</Button>
             <Button onClick = {decrementAnotherCount}>-</Button>

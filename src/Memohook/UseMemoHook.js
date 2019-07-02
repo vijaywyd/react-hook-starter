@@ -23,7 +23,6 @@ export function UseMemo() {
     
     function calcLength() {
         for(let i = 0; i < 100000000; i++);
-
         const l = words[wordIndex].length;
 
         return l;
@@ -36,8 +35,6 @@ export function UseMemo() {
         setWordIndex(wordIndex + 1 === words.length ? 0 : wordIndex + 1 );
     }
 
-    
-
     const currentTime = performance.now();
     const l = memonizedWordLength;
     executionTimes.push( words[wordIndex] + " : " + (performance.now() - currentTime));
@@ -45,7 +42,6 @@ export function UseMemo() {
     const ct = performance.now();
     calcLength();
     e1.push( words[wordIndex] + " : " + (performance.now() - ct));
-
     
     return (
         <>

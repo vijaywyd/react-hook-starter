@@ -5,6 +5,7 @@ import ContextProvider from './ContextHook/ContextProvider';
 import Main from './ReducerHook/components/Main';
 import CallbackHook from './CallBackHook/CallbackHook';
 import { UseMemo } from './Memohook/UseMemoHook';
+import { ToggleButton } from './CustomHook/ToggleButton';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/*<ContextProvider/>*/}
       {/*<Main/>*/}
      {/* <CallbackHook/>*/}
-     <UseMemo/>
+     {/*<UseMemo/>*/}
+     <ToggleButton/>
     </div>
   );
 }

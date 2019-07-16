@@ -6,6 +6,8 @@ import Main from './ReducerHook/components/Main';
 import CallbackHook from './CallBackHook/CallbackHook';
 import { UseMemo } from './Memohook/UseMemoHook';
 import { ToggleButton } from './CustomHook/ToggleButton';
+import ButtonRenderProp from './RenderPropsHooks/ButtonRenderProp';
+import { ButtonHook } from './RenderPropsHooks/ButtonHook';
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
       {/*<Main/>*/}
      {/* <CallbackHook/>*/}
      {/*<UseMemo/>*/}
-     <ToggleButton/>
+     {/*<ToggleButton/>*/}
+     <ButtonHook/>
     </div>
   );
 }
